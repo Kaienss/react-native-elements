@@ -73,7 +73,7 @@ export const ListItemAccordion: RneFunctionComponent<
       ? '0deg'
       : transition.interpolate({
           inputRange: [0, 1],
-          outputRange: ['0deg', '-180deg'],
+          outputRange: ['0deg', '90deg'],
         });
 
   return (
